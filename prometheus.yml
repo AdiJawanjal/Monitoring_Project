@@ -10,7 +10,7 @@ scrape_configs:
   # Scrape Node Exporter on remote server (3.216.91.81)
   - job_name: 'server_1'
     static_configs:
-      - targets: ['3.216.90.229:9100']
+      - targets: ['<server_1_ip>:9100']
 
   - job_name: 'server_2'
     static_configs:
