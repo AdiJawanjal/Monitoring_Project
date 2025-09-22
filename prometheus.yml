@@ -14,4 +14,4 @@ scrape_configs:
 
   - job_name: 'server_2'
     static_configs:
-      - targets: ['44.223.108.108:9100']
+      - targets: ['<server_2_ip>:9100']
