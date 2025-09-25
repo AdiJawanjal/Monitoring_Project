@@ -1,0 +1,16 @@
+# /etc/systemd/system/grafana.service
+[Unit]
+Description=Grafana instance
+After=network.target
+
+[Service]
+User=grafana
+Group=grafana
+Type=simple
+ExecStart=/usr/local/bin/grafana-server \
+  --config=/etc/grafana/grafana.ini \
+  --homepath=/usr/share/grafana
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
