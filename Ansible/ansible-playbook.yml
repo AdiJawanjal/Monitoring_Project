@@ -10,7 +10,7 @@
     node_exporter_port: 9100
     docker_image_name: "adijawanjal/wweimage"
     docker_container_name: "wwe_app"
-    docker_port: 8080
+    docker_port: 80
 
   tasks:
     - name: Create node_exporter user
