@@ -8,6 +8,9 @@
     node_exporter_bin_path: "/usr/local/bin/node_exporter"
     node_exporter_service_path: "/etc/systemd/system/node_exporter.service"
     node_exporter_port: 9100
+    docker_image_name: "adijawanjal/wweimage"
+    docker_container_name: "wwe_app"
+    docker_port: 8080
 
   tasks:
     - name: Create node_exporter user
