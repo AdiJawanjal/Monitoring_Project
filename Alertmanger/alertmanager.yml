@@ -2,7 +2,7 @@ global:
   smtp_smarthost: 'smtp.gmail.com:587'                # Gmail SMTP
   smtp_from: 'alert.sender.000@gmail.com'             # Sender email
   smtp_auth_username: 'alert.sender.000@gmail.com'    # Gmail username
-  smtp_auth_password: 'hmxvvpixzxbrflic'        # Gmail App Password
+  smtp_auth_password: 'xxxxxxxxxxxx'        # Gmail App Password
 
 route:
   receiver: email-alert
