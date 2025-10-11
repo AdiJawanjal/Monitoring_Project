@@ -1,6 +1,6 @@
 # Automated Cloud Monitoring & Alerting Project
 
-![Architecture Diagram](WhatsApp-Image-2025-10-04-at-02.17.30_93305452.jpg)
+![Architecture Diagram](Images/Project_A.png)
 
 ## Overview
 
