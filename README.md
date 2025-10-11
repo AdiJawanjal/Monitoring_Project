@@ -43,7 +43,3 @@ This project automates AWS cloud monitoring and alerting using Infrastructure-as
 - AWS account credentials
 - Terraform and Ansible installed on Monitor/Control node
 - Docker (for Ansible Docker module)
-
-### Provision infrastructure
-
-Edit your Terraform variables and run:
